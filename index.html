@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimbus - Premium AWS Static Hosting</title>
+    <meta name="description" content="Deploy your static websites lightning fast with our premium AWS hosting solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">☁️</span>
+            <span class="logo-text">Nimbus</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#docs">Documentation</a>
+        </div>
+        <button class="btn btn-primary">Get Started</button>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="badge">🚀 Lightning Fast AWS Hosting</div>
+                <h1 class="hero-title">Host Your Static Sites with <span class="gradient-text">Zero Friction</span></h1>
+                <p class="hero-subtitle">Experience the power of AWS CloudFront and S3 with our seamless deployment pipeline. Built for modern web applications.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large">Deploy Now</button>
+                    <button class="btn btn-secondary btn-large">View Demo</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card terminal-window">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> nimbus deploy ./dist</p>
+                        <p class="fade-in-1">📦 Packaging assets...</p>
+                        <p class="fade-in-2">🚀 Uploading to S3...</p>
+                        <p class="fade-in-3">⚡ Invalidating CloudFront cache...</p>
+                        <p class="success fade-in-4">✨ Deployed successfully in 1.2s!</p>
+                        <p class="fade-in-4"><span class="link">https://your-site.nimbus.host</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="features" id="features">
+            <h2 class="section-title">Everything you need</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-card hover-lift">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Edge Network</h3>
+                    <p>Delivered via AWS CloudFront to 300+ edge locations worldwide for sub-10ms latency.</p>
+                </div>
+                <div class="feature-card glass-card hover-lift">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Enterprise Security</h3>
+                    <p>Free auto-renewing SSL certificates and advanced DDoS protection out of the box.</p>
+                </div>
+                <div class="feature-card glass-card hover-lift">
+                    <div class="feature-icon">🔄</div>
+                    <h3>CI/CD Integration</h3>
+                    <p>Connect your GitHub repository for automatic deployments on every push.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
